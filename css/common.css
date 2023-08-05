@@ -22,3 +22,13 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.task03-item {
+  display: flex;
+  width: 375px;
+  padding: 20px;
+  border: 2px solid rgb(236, 238, 240);
+  border-radius: 1px;
+  box-shadow: 2px 2px 5px #8f8f8f;
+ margin-bottom: 5px;
+}
