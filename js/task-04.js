@@ -4,11 +4,11 @@ const spanBtn = document.querySelector("#value");
 let counterValue = 0;
 
 decrementBtn.addEventListener("click", () => {
-    counterValue = counterValue - 1;
-    spanBtn.textContent = counterValue;
+  counterValue = counterValue - 1;
+  spanBtn.textContent = counterValue;
 });
 
 incrementBtn.addEventListener("click", () => {
-    counterValue = counterValue + 1;
-    spanBtn.textContent = counterValue;
+  counterValue = counterValue + 1;
+  spanBtn.textContent = counterValue;
 });
